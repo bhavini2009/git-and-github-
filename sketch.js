@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup(){
-    var canvas = createCanvas(1200,400);
+    var canvas = createCanvas(1200,500);
     engine = Engine.create();
     world = engine.world;
 
@@ -35,6 +35,9 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    log6 = new log(900,180,70,70)
+
+    l
 
 }
 
